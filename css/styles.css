@@ -1,0 +1,275 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+h1,h2,h3,h4,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+h5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+h3{
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+/* Headings */
+.big-heading{
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Navigation Bar */
+.navbar{
+    padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand{
+    /* font-family:'Ubuntu', sans-serif; */
+    font-family: 'Tangerine', cursive;
+    font-weight: bold;
+    font-size: 3rem;
+    text-decoration: underline;
+    text-decoration-style: dotted ;
+    text-decoration-thickness: 5%;
+    }
+
+.nav-item{
+    padding: 0 18px; 
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+
+/* Sections */
+
+.colored-section{
+    background-color: #ff5e76;
+    color: white;
+}
+
+.white-section{
+    background-color: white;
+}
+
+
+/* title Section */
+
+.title-image{
+    width: 135%;
+    position: relative;
+    bottom: 5%;
+    left: 5%;
+}
+
+
+#title .container-fluid{    
+    padding: 3% 15% 8%;
+    text-align: left;
+}
+
+/* Download Buttons */
+.download-buttons{
+    margin: 5% 3% 8% 0;
+}
+.download-buttons:hover{
+    text-decoration: none;
+    cursor: default;
+    color: #ff4c68;
+}
+
+/* Features */
+.features{
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 5%;
+    position: relative;
+    background-color: white;
+    z-index: 1;
+}
+
+.feature-heading{
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.feature-icons{
+    font-size: 4rem; 
+    color: #ef8172; 
+    margin-bottom: 1rem;
+}
+
+.feature-icons:hover{
+    color: #ff4c68;
+}
+
+
+.features-item{
+    margin: 0 auto 0 auto;
+    padding: 5%;
+}
+p{
+    color: #8f8f8f;
+}
+
+
+/* Testimonial Sections */
+
+#testimonials{
+    background-color: #ef8172;
+}
+
+.testimonial-text{
+    padding-top: 20px;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image{
+    width: 35%;
+    border-radius: 5%;
+    object-fit: cover;
+    margin: 20px;
+}
+
+
+.carousel-item{
+    padding: 4% 10%;
+}
+.carousel-item img{
+    width: 240px;
+    height: 426px;
+}
+
+
+/* Pricing Section */
+
+.pricing{
+    padding: 80px;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.pricing-title{
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.pricing-text{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.hundredYrs{
+    padding: 7% 12%;
+}
+
+
+/* Call to Action Section (cta) */
+
+#cta{
+    padding: 7% 15%;
+}
+
+
+
+
+/* Footer */
+
+#footer{
+    background-color: white;
+    padding: 5%;
+}
+
+.footer-icons{
+    margin: 10px;
+    color: black;
+}
+.footer-icons:hover{
+    color: #ff4c68;
+}
+
+#footer-p{
+    font-weight: 600;
+}
+
+/* Tablet Or Mobile */
+
+@media (max-width: 992px){
+    .title-image{
+        width: 120%;
+        transform: rotate(0deg);
+        position: static;
+        padding-top: 20px;
+        
+    }
+    #title .container-fluid{
+        text-align: center;
+    }
+
+    .big-heading{
+        font-weight: 700;
+        font-size: 4rem;
+        line-height: 1.5;
+    }
+
+    .navbar-brand{
+        font-size: 5.25rem;
+        color: white;
+        }
+
+    .navbar-toggler-icon{
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .btn{
+            margin: 5% 3% 5% 0;
+            font-size: 1.5rem;
+    }
+
+    .feature-heading{
+        font-weight: 800;
+        font-size: 2.5rem;
+    }
+    
+    .feature-icons{
+        font-size: 5rem; 
+        color: #ef8172; 
+        margin-bottom: 1rem;
+    }
+    .testimonial-image{
+        width: 55%;
+        border-radius: 5%;
+        object-fit: cover;
+        margin: 20px;
+    }
+
+    .carousel-item img{
+        width: 50vw;
+        height: 75vw;
+    }
+
+    p{
+        font-size: 1.5rem;
+    }
+
+}
