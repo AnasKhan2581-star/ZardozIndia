@@ -37,7 +37,7 @@ h3{
 .navbar-brand{
     /* font-family:'Ubuntu', sans-serif; */
     font-family: 'Tangerine', cursive;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 3rem;
     text-decoration: underline;
     text-decoration-style: dotted ;
@@ -214,6 +214,9 @@ p{
 /* Tablet Or Mobile */
 
 @media (max-width: 992px){
+    h3{
+        font-size: 2rem;
+    }
     .title-image{
         width: 120%;
         transform: rotate(0deg);
@@ -227,23 +230,23 @@ p{
 
     .big-heading{
         font-weight: 700;
-        font-size: 4rem;
+        font-size: 5rem;
         line-height: 1.5;
     }
 
     .navbar-brand{
-        font-size: 5.25rem;
+        font-size: 5.5rem;
         color: white;
         }
 
     .navbar-toggler-icon{
-        width: 4rem;
-        height: 4rem;
+        width: 5rem;
+        height: 5rem;
     }
 
     .btn{
-            margin: 5% 3% 5% 0;
-            font-size: 1.5rem;
+            margin: 5% 3% 5% 3%;
+            font-size: 2.5rem;
     }
 
     .feature-heading{
@@ -256,6 +259,10 @@ p{
         color: #ef8172; 
         margin-bottom: 1rem;
     }
+    .footer-icons{
+        font-size: 2rem;
+        margin: 20px;
+    }
     .testimonial-image{
         width: 55%;
         border-radius: 5%;
@@ -264,12 +271,12 @@ p{
     }
 
     .carousel-item img{
-        width: 50vw;
-        height: 75vw;
+        width: 70vw;
+        height: 100vw;
     }
 
     p{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
 }
