@@ -34,22 +34,16 @@ h3{
     padding: 0 0 4.5rem 0;
 }
 
-.navbar-brand{
-    /* font-family:'Ubuntu', sans-serif; */
-    font-family: 'Tangerine', cursive;
-    font-weight: 700;
-    font-size: 3rem;
-    text-decoration: underline;
-    text-decoration-style: dotted ;
-    text-decoration-thickness: 5%;
-    }
+.navbar-brand-image{
+    width: 70%;
+ }
 
 .nav-item{
-    padding: 0 18px; 
+    padding: 0 6px; 
 }
 
 .nav-link{
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
@@ -189,7 +183,10 @@ p{
     padding: 7% 15%;
 }
 
-
+.fas a{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
 
 
 /* Footer */
@@ -234,9 +231,8 @@ p{
         line-height: 1.5;
     }
 
-    .navbar-brand{
-        font-size: 5.5rem;
-        color: white;
+    .navbar-brand-image{
+        width: 130%;
         }
 
     .navbar-toggler-icon{
@@ -252,6 +248,7 @@ p{
     .feature-heading{
         font-weight: 800;
         font-size: 2.5rem;
+        line-height: 3.3rem;
     }
     
     .feature-icons{
@@ -259,10 +256,12 @@ p{
         color: #ef8172; 
         margin-bottom: 1rem;
     }
+
     .footer-icons{
         font-size: 2rem;
         margin: 20px;
     }
+
     .testimonial-image{
         width: 55%;
         border-radius: 5%;
@@ -274,6 +273,10 @@ p{
         width: 70vw;
         height: 100vw;
     }
+
+    .nav-link{
+        font-size: 2.2rem;
+    }    
 
     p{
         font-size: 2rem;
