@@ -146,8 +146,8 @@ p{
     padding: 4% 10%;
 }
 .carousel-item img{
-    width: 240px;
-    height: 426px;
+    width: 25vw;
+    height: 45vw;
 }
 
 
@@ -181,6 +181,11 @@ p{
 
 #cta{
     padding: 7% 15%;
+}
+
+#contact-button{
+    margin: 4% 0;
+    width: 35%;
 }
 
 .fas a{
@@ -272,6 +277,11 @@ p{
     .carousel-item img{
         width: 70vw;
         height: 100vw;
+    }
+
+    #contact-button{
+        margin: 4% 0;
+        width: 65%;
     }
 
     .nav-link{
